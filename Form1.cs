@@ -87,7 +87,7 @@ namespace YoutubeMp3Downloader
                         File.Delete($"{fdb.SelectedPath + @"\" + video.FullName}.mp3");
                     }
 
-                    labelDurum.Text = "İndirme İşlemi Başarıyla Tamamlandı!";
+                    labelDurum.Text = "İndirme İşlemi Başarıyla Tamamlandı sinan !";
                     labelDurum.ForeColor = Color.Green;
 
                 }
